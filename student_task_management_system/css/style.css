@@ -1,0 +1,86 @@
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background-color: #fff0f5; 
+    color: #333;
+}
+
+.card {
+    border-radius: 1rem;  
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);  
+    border: none; 
+    background-color: #fff0f5; 
+}
+
+.card-title {
+    font-weight: 600;
+    color: #FF69B4; 
+}
+
+.btn-pink {
+    background-color: #FF69B4;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.btn-pink:hover {
+    background-color: #FFB6C1;
+    color: #fff;
+}
+
+.btn-outline-pink {
+    border-color: #FF69B4;
+    color: #FF69B4;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.btn-outline-pink:hover {
+    background-color: #FFB6C1;
+    color: #fff;
+    border-color: #FFB6C1;
+}
+
+.alert {
+    border-radius: 50px; 
+}
+
+.table {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #ffe4f1; 
+}
+
+.table-hover tbody tr:hover {
+    background-color: #ffe4f1;
+}
+
+.form-control {
+    border-radius: 50px; 
+}
+
+h1, h2, h3, h4, h5 {
+    color: #FF69B4;
+}
+
+a {
+    color: #FF69B4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFB6C1;
+    text-decoration: underline;
+}
+
+.navbar .nav-link.text-pink {
+    color: #FF69B4 !important;
+    font-weight: 500;
+}
+.navbar .nav-link.text-pink:hover {
+    color: #FFB6C1 !important;
+}
